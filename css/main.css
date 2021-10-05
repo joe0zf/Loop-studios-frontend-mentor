@@ -31,3 +31,14 @@ body {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
+
+@media screen and (min-width: 900px) {
+  .text-box {
+    justify-content: flex-start;
+  }
+  .text-box__text {
+    margin-left: 5rem;
+    font-size: 3rem;
+    width: 30%;
+  }
+}

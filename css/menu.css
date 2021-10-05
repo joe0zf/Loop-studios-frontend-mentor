@@ -25,6 +25,7 @@
   color: #fff;
 }
 .main-menu-btn {
+  display: block;
   height: 90%;
   z-index: 1;
 }
@@ -36,4 +37,28 @@
 
 .active {
   display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .main-menu-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items: center;
+  }
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+
+    position: static;
+    width: 30%;
+    height: auto;
+    background-color: transparent;
+    padding-top: 0%;
+  }
+  .main-menu-btn {
+    display: none;
+  }
+  .main-menu li a {
+    font-size: 1em;
+  }
 }

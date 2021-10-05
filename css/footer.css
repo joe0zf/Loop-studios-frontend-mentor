@@ -51,3 +51,26 @@
   margin-bottom: 2rem;
   font-family: "Rubik", sans-serif;
 }
+
+@media screen and (min-width: 900px) {
+  .footer-container {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-network-container {
+    width: 30%;
+  }
+  .menu-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menu-footer-container {
+    width: 30%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .social-network-container {
+    align-items: flex-end;
+  }
+}
